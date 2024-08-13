@@ -3,7 +3,7 @@ name: Feature request
 about: Add or suggest a feature
 title: "[FEATURE] Feature name"
 labels: 'type: feature'
-assignees: MoonbamiOfficial
+assignees: itsahrabbi
 
 ---
 

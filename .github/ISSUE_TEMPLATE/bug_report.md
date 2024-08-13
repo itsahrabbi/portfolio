@@ -3,7 +3,7 @@ name: Bug report
 about: Report a bug to help my portfolio improve
 title: "[BUG] Bug name"
 labels: 'type: bug'
-assignees: MoonbamiOfficial
+assignees: itsahrabbi
 
 ---
 
