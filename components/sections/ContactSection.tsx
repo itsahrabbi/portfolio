@@ -18,25 +18,25 @@ export default function ContactSection() {
       <hr className="w-full" />
       <div className=" socmeds grid grid-cols-2 gap-[30px]">
         <SocMed
-          href={"https://www.facebook.com/moonbamijam"}
+          href={"https://www.facebook.com/nill.rabbi"}
           ariaLabel={"Facebook"}
           icon={<FaFacebook />}
           text={"facebook"}
         />
         <SocMed
-          href={"https://www.instagram.com/moonbamidesu/"}
+          href={"https://www.instagram.com/rabbi_ahm"}
           ariaLabel={"Instagram"}
           icon={<FaInstagram />}
           text={"instagram"}
         />
         <SocMed
-          href={"https://twitter.com/Moonbami_"}
+          href={"https://twitter.com/itsahrabbi"}
           ariaLabel={"X"}
           icon={<FaXTwitter />}
           text={"twitter x"}
         />
         <SocMed
-          href={"https://github.com/MoonbamiOfficial"}
+          href={"https://github.com/itsahrabbi"}
           ariaLabel={"GitHub"}
           icon={<FaGithub />}
           text={"GitHub"}
