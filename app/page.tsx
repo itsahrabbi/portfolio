@@ -40,12 +40,12 @@ const HomePage = async () => {
               <div className="relative w-[250px] h-[250px] md:w-[300px] md:h-[300px] lg:w-[350px] lg:h-[350px] xl:w-[400px] xl:h-[400px] aspect-square rounded-xl shadow-md hover:shadow-primary-dark [&>span]:hover:opacity-70 overflow-hidden">
                 <Picture
                   src={"/itsahrabbi-home.jpg"}
-                  alt={"Jam Moonbami"}
+                  alt={"Ahmed Rabbi"}
                   isPriority={true}
                 />
                 <ImageCredits
-                  creditsTo="Maki"
-                  creditLink="https://www.instagram.com/prettyboimaks/"
+                  creditsTo="@rakibjr"
+                  creditLink="https://www.instagram.com/rabbi_ahm/"
                 />
               </div>
             </div>

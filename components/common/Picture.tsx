@@ -15,7 +15,8 @@ const isAbsoluteOrRootRelative = (url: string) =>
 export default function Picture({ src, alt, isPriority, className }: Props) {
     const imageSrc = typeof src === 'string' ? src : src.toString();
     const source = isAbsoluteOrRootRelative(imageSrc) ? imageSrc : "/prev.jpg";
-
+    console.log(imageSrc)
+    console.log(source)
     return (
         <Image
             priority={isPriority}
