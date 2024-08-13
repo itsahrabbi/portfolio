@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Noto_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import Header from "@components/header/Header";
@@ -8,7 +8,7 @@ import SmallGridLines from "@components/bg/SmallGridLines";
 import NavMenuBtn from "@components/buttons/NavMenuBtn";
 import "@styles/globals.css";
 
-const inter = Noto_Sans({
+const inter = Inter({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
 });
@@ -22,24 +22,24 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Moonbami",
-    template: "Moonbami | %s",
+    default: "Ahmed Rabbi",
+    template: "Ahmed Rabbi | %s",
   },
   description:
     "Pursuing a career for being a developer. Still a novice, but making progress on a daily basis.",
   manifest: "/manifest.json",
   keywords: [
-    "moonbami",
+    "Ahmed Rabbi",
     "portfolio",
     "dev-portfolio",
     "developer",
-    "jam moonbami",
+    "itsahrabbi",
   ],
   authors: [
-    { name: "Jam Moonbami" },
+    { name: "Ahmed Rabbi"},
     {
-      name: "Jam Moonbami",
-      url: "https://github.com/MoonbamiOfficial",
+      name: "itsahrabbi",
+      url: "https://github.com/itsahrabbi",
     },
   ],
 };
