@@ -31,8 +31,8 @@ const HomePage = async () => {
                 on a daily basis.
               </p>
               <div className="flex gap-6">
-                <EmailBtn href="mailto:Jam Moonbami <moonbamijamofficial15@gmail.com>" />
-                <GitHubBtn href="https://github.com/MoonbamiOfficial" />
+                <EmailBtn href="mailto:Ahmed Rabbi <ahmedrabbi.ff@gmail.com>" />
+                <GitHubBtn href="https://github.com/itsahrabbi" />
               </div>
               <RandomizeQuote />
             </div>
