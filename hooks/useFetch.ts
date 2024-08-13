@@ -1,5 +1,5 @@
 export const useFetch = async (url: string) => {
-  const response = await fetch(process.env.URL + url, {
+  const response = await fetch(url, {
     cache: "no-store",
     method: "GET",
   });
