@@ -25,7 +25,7 @@
 * responsive width for project card ui component ([fce9329](https://github.com/MoonbamiOfficial/dev-portfolio/commit/fce9329c526ecb418e1dbdfc23f21171e03bd8f6))
 * update contact btn to email btn in landing page ([e5ee4aa](https://github.com/MoonbamiOfficial/dev-portfolio/commit/e5ee4aa3c7018fba8f5c0fc74b92e102b660c335))
 * use switch to handle fallback in event type ([#30](https://github.com/MoonbamiOfficial/dev-portfolio/issues/30)) ([7db151e](https://github.com/MoonbamiOfficial/dev-portfolio/commit/7db151ed567b262cb4e7c9c369eccd7dbaa473fb))
-
+*
 
 ### Performance Improvements
 
