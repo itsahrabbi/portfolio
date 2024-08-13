@@ -8,7 +8,8 @@ type Props = {
     isPriority?: boolean;
     className?: string;
 };
-const isAbsoluteOrRootRelative = url => /^(?:[a-z]+:)?\/\/|^\//i.test(url);
+const isAbsoluteOrRootRelative = (url: any) =>
+    /^(?:[a-z]+:)?\/\/|^\//i.test(url);
 
 export default function Picture({ src, alt, isPriority, className }: Props) {
     const source = isAbsoluteOrRootRelative(src) ? src : "/prev.jpg";
