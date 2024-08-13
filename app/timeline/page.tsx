@@ -4,17 +4,19 @@ import TimelineSection from "@components/sections/TimelineSection";
 import BackToTop from "@components/buttons/BackToTop";
 
 export const metadata: Metadata = {
-  title: "Timeline",
+    title: "Timeline"
 };
 
 export default function TimelinePage() {
-  return (
-    <>
-      <div className="container relative">
-        <BackToTop id="#timeline" />
-        <TimelineSection />
-      </div>
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <div className="container relative">
+                <BackToTop id="#timeline" />
+                <div className="pt-[100px]">
+                    <TimelineSection />
+                </div>
+            </div>
+            <Footer />
+        </>
+    );
 }

@@ -3,19 +3,20 @@ import ProjectSection from "@components/sections/ProjectSection";
 import BackToTop from "@components/buttons/BackToTop";
 import Footer from "@components/footer/Footer";
 
-
 export const metadata: Metadata = {
-  title: "Projects",
+    title: "Projects"
 };
 
 export default function ProjectsPage() {
-  return (
-    <>
-      <div className="container relative">
-        <BackToTop id={"#project"} />
-        <ProjectSection />
-      </div>
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <div className="container relative">
+                <BackToTop id={"#project"} />
+                <div className="pt-[100px]">
+                    <ProjectSection />
+                </div>
+            </div>
+            <Footer />
+        </>
+    );
 }
