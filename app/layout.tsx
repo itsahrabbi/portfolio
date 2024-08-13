@@ -9,60 +9,60 @@ import NavMenuBtn from "@components/buttons/NavMenuBtn";
 import "@styles/globals.css";
 
 const inter = Inter({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  subsets: ["latin"],
+    weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+    subsets: ["latin"]
 });
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-    { media: "(prefers-color-scheme: light)", color: "white" },
-  ],
+    themeColor: [
+        { media: "(prefers-color-scheme: dark)", color: "black" },
+        { media: "(prefers-color-scheme: light)", color: "white" }
+    ]
 };
 
 export const metadata: Metadata = {
-  title: {
-    default: "Ahmed Rabbi",
-    template: "Ahmed Rabbi | %s",
-  },
-  description:
-    "Pursuing a career for being a developer. Still a novice, but making progress on a daily basis.",
-  manifest: "/manifest.json",
-  keywords: [
-    "Ahmed Rabbi",
-    "portfolio",
-    "dev-portfolio",
-    "developer",
-    "itsahrabbi",
-  ],
-  authors: [
-    { name: "Ahmed Rabbi"},
-    {
-      name: "itsahrabbi",
-      url: "https://github.com/itsahrabbi",
+    title: {
+        default: "Ahmed Rabbi",
+        template: "Ahmed Rabbi | %s"
     },
-  ],
+    description:
+        "Pursuing a career for being a developer. Still a novice, but making progress on a daily basis.",
+    manifest: "/manifest.json",
+    keywords: [
+        "Ahmed Rabbi",
+        "portfolio",
+        "dev-portfolio",
+        "developer",
+        "itsahrabbi"
+    ],
+    authors: [
+        { name: "Ahmed Rabbi" },
+        {
+            name: "itsahrabbi",
+            url: "https://github.com/itsahrabbi"
+        }
+    ]
 };
 
 export default function RootLayout({
-  children,
+    children
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }) {
-  return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className}`}>
-        <ThemesProvider>
-          <SmallGridLines />
-          <Header />
-          <main>
-            {children}
-            <Analytics />
-            <SpeedInsights />
-          </main>
-          <NavMenuBtn />
-        </ThemesProvider>
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en" suppressHydrationWarning>
+            <body className={`${inter.className}`}>
+                <ThemesProvider>
+                    <SmallGridLines />
+                    <Header />
+                    <main>
+                        {children}
+                        <Analytics />
+                        <SpeedInsights />
+                    </main>
+                    <NavMenuBtn />
+                </ThemesProvider>
+            </body>
+        </html>
+    );
 }
